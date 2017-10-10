@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pay"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#0c0e5e"/>
+
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tm"
+                android:textSize="25dp"
+                 android:paddingLeft="40dp"
+                android:textStyle="bold"
+                android:textColor="#4894f7"/>
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_transaction"
+            android:background="#ffffff"
+            android:text="@string/start_transaction"
+            android:onClick="onStartTransaction"
+            android:layout_centerInParent="true"
+
+            android:textSize="12dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="2.05" />
+
+</RelativeLayout>
